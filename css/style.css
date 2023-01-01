@@ -1,3 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+
+}
+
 body {
-    font-family: 'Prosto One', cursive;;
+    font-family: 'Prosto One', cursive;
+    font-weight: 200;
+    color: darkslategray;
+}
+ /*headings and logo*/
+
+
+h1 , h2 {
+    font-family: 'Prosto One', cursive;
+    text-transform: uppercase;
+    color: darkslategray;
+}
+
+#main-logo {
+    color: darkslategray;
+    float: left;
+    font-size: 250%;
+
+}
+
+/*nav*/
+
+#menu {
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+
+
+}
+
+#menu, #main-logo {
+    line-height: 75px;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu a:hover {
+    border-bottom: 1px inset darkslategray;
 }
